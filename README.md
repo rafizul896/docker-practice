@@ -1,5 +1,3 @@
-# 🐳 ts-backend-docker-practice
-
 This repository is for practicing **Docker basics** with a backend application.  
 It includes commonly used Docker commands, networking, volumes, and Dockerfile usage.
 
