@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next Level-2.0\\Cloud-Container-Craftsman\\Docker\\docker-with-typescript-backend\\logs\\winston\\successes\\.36d51b2513977f9aca60c593dba4ada17aa9b3a7-audit.json",
+    "files": [
+        {
+            "date": 1756046761502,
+            "name": "D:\\Next Level-2.0\\Cloud-Container-Craftsman\\Docker\\docker-with-typescript-backend\\logs\\winston\\successes\\docker-2025-08-24-20-46-01-success.log",
+            "hash": "78419eaa57f58d444e6a38d12370139d34d3a13508e571811fd1765d53eb1004"
+        }
+    ],
+    "hashType": "sha256"
+}

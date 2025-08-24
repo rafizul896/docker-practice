@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next Level-2.0\\Cloud-Container-Craftsman\\Docker\\docker-with-typescript-backend\\logs\\winston\\errors\\.0167c1d6f6b0989c7876594c8e4def5ef12d8a7a-audit.json",
+    "files": [
+        {
+            "date": 1756046761506,
+            "name": "D:\\Next Level-2.0\\Cloud-Container-Craftsman\\Docker\\docker-with-typescript-backend\\logs\\winston\\errors\\docker-2025-08-24-20-error.log",
+            "hash": "560ec90a2f6197dc387319568afb789f355889e67dc0e5a6df37787cd12b3636"
+        }
+    ],
+    "hashType": "sha256"
+}
