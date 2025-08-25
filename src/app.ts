@@ -2,14 +2,26 @@ import express, { Application, Request, Response } from "express";
 import path from "path";
 import { LogsRoutes } from "./app/src/modules/Logs/logs.routes";
 import { errorlogger } from "./app/src/shared/logger";
+import router from "./app/src/routes";
+import cors from "cors";
 
 const app: Application = express();
 
 // Serve static files like CSS
 app.use(express.static(path.join(__dirname, "../public"))); // Adjusted path
 
+app.use(cors({  credentials: true,origin: "http://localhost:3000", }));
+
 // Parsers
 app.use(express.json());
+
+app.use("/api/v1", router);
+
+app.get("/posts", async (req: Request, res: Response) => {
+  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const posts = await response.json();
+  res.status(200).json(posts);
+});
 
 // Welcome route
 app.get("/", (req: Request, res: Response) => {
