@@ -1,0 +1,1 @@
+Tue Aug 26 2025 9:18:10 } [DOCKER] error: E11000 duplicate key error collection: ts-docker-db.users index: email_1 dup key: { email: "weperux@mailinator.com" }
