@@ -1,16 +1,15 @@
+## 🚀 Getting Started with Docker
+
 This repository is for practicing **Docker basics** with a backend application.  
 It includes commonly used Docker commands, networking, volumes, and Dockerfile usage.
 
 ---
-
-## 🚀 Getting Started with Docker
-
 ### ✅ Check Docker Installation
+---
 ```bash
 docker --version
 ````
 
----
 
 ## 🔹 Basic Commands
 
