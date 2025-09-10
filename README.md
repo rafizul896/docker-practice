@@ -1,7 +1,6 @@
 ##  Getting Started with Docker
 
-This repository is for practicing **Docker basics** with a backend application.  
-It includes commonly used Docker commands, networking, volumes, and Dockerfile usage.
+This repository is for practicing **Docker basics** with a backend application. It includes commonly used **Docker commands, networking, volumes, and Dockerfile** usage.
 
 ---
 ### ✅ Check Docker Installation
@@ -289,7 +288,7 @@ docker info
 
 ##  Summary
 
-This repo is focused on learning and practicing Docker commands, container management, networking, and Docker Compose for backend development.
+This repo is focused on learning and practicing **Docker commands, container management, networking, and Docker Compose** for backend development.
 It will help build a strong foundation for deploying real-world applications using Docker.
 
 ---
