@@ -1,9 +1,9 @@
 ##  Getting Started with Docker
 
-This repository is for practicing **Docker basics** with a backend application. It includes commonly used **Docker commands, networking, volumes, and Dockerfile** usage.
+This repository is for practicing **Docker basics** with a fullStack application. It includes commonly used **Docker commands, networking, volumes, and Dockerfile** usage.
 
 ---
-### ✅ Check Docker Installation
+### Check Docker Installation
 ---
 ```bash
 docker --version
